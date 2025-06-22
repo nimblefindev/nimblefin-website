@@ -89,7 +89,7 @@ const About = () => {
                                 <li>End-to-end Revenue Cycle Management & Claims Services</li>
                                 <li>Health Financing and Working Capital Optimization</li>
                                 <li>Strategic Partnerships to improve revenue per bed</li>
-                                <li>and on-site support desks</li>
+                                <li>Staffing solutions and on-site support desks</li>
                                 <li>SLA-driven performance tracking with bonus-linked savings</li>
                             </ul>
                         </div>
