@@ -1,0 +1,36 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Laptop from '../assets/analysislaptop.png';
+
+const Analytics = () => {
+  return (
+    <div className='w-full bg-[#e4e2dd] py-16 px-4'>
+      <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
+        <img className='w-[500px] mx-auto my-4' src={Laptop} alt='Nimblefin Services Illustration' />
+        <div className='flex flex-col justify-center'>
+          <p className='text-[#ba0707] font-bold'>END-TO-END INSURANCE & RCM SUPPORT</p>
+          <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>
+            Empowering Hospitals with Smarter Claims, Revenue & Operations
+          </h1>
+          <p>
+            Nimblefin partners with hospitals and insurers to streamline the entire revenue cycle — from patient registration and insurance 
+            verification to claims filing, denial resolution, and payment reconciliation. Our technology-enabled services reduce manual workload, 
+            accelerate reimbursements, and optimize both government and private insurance operations.
+          </p>
+          <p className='mt-4'>
+            We also support empanelment, staffing, MIS reporting, and financial consulting to improve margins and simplify complex hospital 
+            insurance processes — whether you're a 100-bed unit or a multispecialty network.
+          </p>
+          <Link
+            to="/services"
+            className="w-[200px] border border-[#ba0707] text-[#ba0707] rounded-md font-medium my-6 mx-auto md:mx-0 py-2.5 hover:bg-[#ba0707] hover:text-white transition-all duration-300 flex justify-center items-center text-center"
+          >
+            Explore Our Services
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Analytics;
