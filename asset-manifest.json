@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.57fe381c.css",
+    "main.js": "/static/js/main.e9390d21.js",
+    "static/media/buildingback.jpg": "/static/media/buildingback.8b8ad3f65ad2fdc30705.jpg",
+    "static/media/panindiamap.png": "/static/media/panindiamap.8067fc4e0bdec45e71bd.png",
+    "static/media/servicesnew.jpg": "/static/media/servicesnew.145f9fcf795202a34491.jpg",
+    "static/media/nimblefinalmedlogo.png": "/static/media/nimblefinalmedlogo.90e20dc78bf3cf2fa840.png",
+    "static/media/core-competencies.png": "/static/media/core-competencies.4e8abf8b3625aa7b589e.png",
+    "static/media/analysislaptop.png": "/static/media/analysislaptop.ac8e28215300807b789e.png",
+    "static/media/red.png": "/static/media/red.89a4514a198425bc122c.png",
+    "static/media/yellow.png": "/static/media/yellow.6043ce812f7e0fd88139.png",
+    "static/media/lightgreen.png": "/static/media/lightgreen.16cf9d5cb2c16dec9fc0.png",
+    "static/media/task.png": "/static/media/task.c9319ebe29da4e2ddc75.png",
+    "static/media/darkgreen.png": "/static/media/darkgreen.1dd16b2140c771abe7db.png",
+    "static/media/orange.png": "/static/media/orange.7044fab961dc6e9d578c.png",
+    "static/media/nimblefinlogo.png": "/static/media/nimblefinlogo.000a07f4f121223c81bf.png",
+    "static/media/lightblue.png": "/static/media/lightblue.e38c0be46941ae8c3a22.png",
+    "static/media/budget.jpg": "/static/media/budget.3e7b8b729fb8d6e4fe74.jpg",
+    "static/media/time.png": "/static/media/time.0ddaa956ca0d8a1433cd.png",
+    "index.html": "/index.html",
+    "main.57fe381c.css.map": "/static/css/main.57fe381c.css.map",
+    "main.e9390d21.js.map": "/static/js/main.e9390d21.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57fe381c.css",
+    "static/js/main.e9390d21.js"
+  ]
+}
