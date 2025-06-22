@@ -27,6 +27,8 @@ jobs:
       - name: Deploy to deploy branch
         uses: JamesIves/github-pages-deploy-action@v4
         with:
+          token: ${{ secrets.PERSONAL_TOKEN }}
           branch: deploy         # Deployment branch
           folder: build          # React build output folder
+
 
