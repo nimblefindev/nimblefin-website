@@ -95,7 +95,7 @@ const ServiceArc = () => {
   return (
     <>
       <h1 className="text-2xl sm:text-4xl font-extrabold text-center text-[#ba0707] mb-4">
-        Our Services
+        Comprehensive Healthcare and Insurance Services 
       </h1>
 
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 text-sm sm:text-base leading-relaxed mb-7">

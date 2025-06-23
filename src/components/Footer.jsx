@@ -1,4 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import IsoLogo from '../assets/isologo.png'
+
 import {
     FaFacebookSquare,
     FaInstagram,
@@ -15,8 +18,18 @@ const Footer = () => {
                     {/* Left Section */}
                     <div className="mb-10 lg:mb-0">
                         <h1 className="text-3xl font-bold text-[#ba0707] mb-4">Nimblefin Proworksz</h1>
-                        <p className="mb-6">
-                            Our mission is to be a valued and competent organization for improving efficiency of operations, cash flow and enhance affordability in healthcare sector.</p>
+                        <p className="mb-4">
+                            Our mission is to <b>Be a valued and competent organization for improving efficiency of operations, cash flow and enhance affordability in healthcare sector.</b></p>
+                        <div className="flex items-center gap-2 sm:gap-4 mb-4">
+                            <img
+                                src={IsoLogo}
+                                alt="ISO 9001:2015 Certified Badge"
+                                className="h-9 sm:h-10"
+                            />
+                            <p className="text-md sm:text-md font-medium text-gray-800">
+                                We are <span className="font-semibold">ISO 9001:2015 Certified</span>
+                            </p>
+                        </div>
                         <div className="flex space-x-6 md:w-[75%]">
                             <FaFacebookSquare size={30} className="hover:text-[#ba0707] cursor-pointer" />
                             <FaInstagram size={30} className="hover:text-[#ba0707] cursor-pointer" />
@@ -50,11 +63,11 @@ const Footer = () => {
                         <div>
                             <h6 className="font-semibold text-lg text-black mb-4 uppercase">Company</h6>
                             <ul className="space-y-2">
-                                <li className="hover:text-[#ba0707] transition-colors cursor-pointer">About Us</li>
-                                <li className="hover:text-[#ba0707] transition-colors cursor-pointer">Leadership</li>
-                                <li className="hover:text-[#ba0707] transition-colors cursor-pointer">Strategic Partnership</li>
-                                <li className="hover:text-[#ba0707] transition-colors cursor-pointer">Referrals</li>
-                                <li className="hover:text-[#ba0707] transition-colors cursor-pointer">Careers</li>
+                                <li className="hover:text-[#ba0707] transition-colors cursor-pointer"><Link to="/about">About Us</Link></li>
+                                <li className="hover:text-[#ba0707] transition-colors cursor-pointer"><Link to="/about#leadership">Leadership</Link></li>
+                                <li className="hover:text-[#ba0707] transition-colors cursor-pointer"><Link to="/contact">Strategic Partnership</Link></li>
+                                <li className="hover:text-[#ba0707] transition-colors cursor-pointer"><Link to="/contact">Referrals</Link></li>
+                                <li className="hover:text-[#ba0707] transition-colors cursor-pointer"><Link to="/contact">Careers</Link></li>
                             </ul>
                         </div>
                         <div>

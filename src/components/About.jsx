@@ -1,4 +1,6 @@
 import React from 'react';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import teamIcon from '../assets/abtlogos/team.png';
 import taskIcon from '../assets/abtlogos/task.png';
 import timeIcon from '../assets/abtlogos/time.png';
@@ -7,6 +9,19 @@ import coreImage from '../assets/abtlogos/core-competencies.png';
 import panIndiaImage from '../assets/abtlogos/panindiamap.png';
 
 const About = () => {
+    const location = useLocation();
+
+    useEffect(() => {
+        const hash = location.hash;
+        if (hash) {
+        const id = hash.replace('#', '');
+        const el = document.getElementById(id);
+        if (el) {
+            el.scrollIntoView({ behavior: 'smooth' }); // ← force scroll
+        }
+        }
+    }, [location]);
+
     return (
         <div className="w-full bg-white py-10 text-gray-800">
             <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
@@ -37,32 +52,32 @@ const About = () => {
                         <li className="flex items-start gap-4">
                             <img src={teamIcon} alt="Team" className="w-12 h-12 object-contain" />
                             <div>
-                                <strong>Team</strong>: Our experienced team use their trained skills and technology to handle Insurance desk & process cashless claims seamlessly. Our professional staff include Doctors, Certified Process Associates & Industry veterans.
+                                <strong>Team</strong>: <i>Our experienced team use their trained skills and technology to handle Insurance desk & process cashless claims seamlessly. Our professlonal staff include Doctors, Certified Process Associates & Industry veterans</i>.
                             </div>
                         </li>
                         <li className="flex items-start gap-4">
                             <img src={taskIcon} alt="Task" className="w-12 h-12 object-contain" />
                             <div>
-                                <strong>Task</strong>: ‘Zero Tolerance’ to process deviations make our efforts unique and reports flawless. We use skilled manpower, identify technology, training & processes to take our service offerings to the next level.
+                                <strong>Task</strong>: <i>‘Zero Tolerance’ to process deviations make our efforts unique and reports flawless. We use skilled manpower, identify technology, training & processes to take our service offerings to the next level</i>.
                             </div>
                         </li>
                         <li className="flex items-start gap-4">
                             <img src={timeIcon} alt="Time" className="w-12 h-12 object-contain" />
                             <div>
-                                <strong>Time</strong>: Time is money for our clients, so is for our us! TATs are part of strict compliance for the leadership team. Once we have the official buy-in, our experts oversee the execution from start to finish within desired timelines.
+                                <strong>Time</strong>: <i>Time is money for our clients, so is for our us! TATs are part of strict compliance for the leadership team. Once we have the official buy-in, our experts oversee the execution from start to finish within desired timelines</i>.
                             </div>
                         </li>
                         <li className="flex items-start gap-4">
                             <img src={budgetIcon} alt="Budget" className="w-12 h-12 object-contain" />
                             <div>
-                                <strong>Budget</strong>: We are in the business to save expenses for our clients through improving process efficiencies. Key Indicators are monitored at specified intervals, capture milestones, adjusting strategies to deliver budgets.
+                                <strong>budgeT</strong>: <i>We are in the business to save expenses for our clients through improving process efficiencies. Key Indicators are monitored at specified intervals, capture milestones, adjusting strategies to deliver budgets</i>.
                             </div>
                         </li>
                     </ul>
                 </section>
 
                 {/* LEADERSHIP TEAM */}
-                <section className="space-y-4">
+                <section className="space-y-4" id='leadership'>
                     <p className="text-[#ba0707] font-bold text-xs sm:text-sm uppercase">Our Leadership</p>
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">Led by Industry Veterans</h2>
                     <div className="space-y-2 text-sm sm:text-base leading-relaxed">

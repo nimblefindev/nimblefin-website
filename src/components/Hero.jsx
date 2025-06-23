@@ -42,7 +42,7 @@ const Hero = () => {
         </p> */}
         <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold text-gray-600 text-center leading-relaxed px-4 sm:px-6">
           Experience professionally managed insurance desk & claims support,
-          increased patient turnouts & ARPOB, reduced service costs and write-offs
+          Increased patient turnouts & ARPOB, Reduced service costs and write-offs
           with N<span className="text-[#0000FF]">i</span>mblef<span className="text-[#0000FF]">i</span>n.
         </p>
 
