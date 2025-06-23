@@ -1,6 +1,16 @@
 import React from 'react';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 const ContactUs = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash === '#top' || location.hash === '#contact') {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }, [location]);
+
   return (
     <div className="w-full min-h-screen py-16 text-gray-900 font-sans">
       {/* Contact Form via Google Form */}

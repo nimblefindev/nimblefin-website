@@ -27,7 +27,7 @@ const About = () => {
             <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
 
                 {/* WHO WE ARE */}
-                <section className="space-y-4">
+                <section className="space-y-4" id="top">
                     <p className="text-[#ba0707] font-bold text-xs sm:text-sm uppercase">Who We Are</p>
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">25+ Years of Transforming Healthcare Operations</h2>
                     <div className="space-y-2 text-sm sm:text-base leading-relaxed">
