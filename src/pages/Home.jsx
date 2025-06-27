@@ -24,34 +24,43 @@ import Analytics from '../components/Analytics';
 import Newsletter from '../components/Newsletter';
 import Footer from '../components/Footer';
 import bgImage from '../assets/buildingback.jpg';
+import { Helmet } from 'react-helmet';
 
 const Home = () => {
   return (
-    <div className="relative min-h-screen">
-      {/* Background Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage: `url(${bgImage})`,
-          zIndex: 0,
-        }}
-      ></div>
+    <>
+      <Helmet>
+        <meta name="description" content="A professional services company redefining Revenue Cycle Management. Empowering Hospitals with cost efficient & faster Claims, Revenue & Operations." />
+        <meta property="og:description" content="A professional services company redefining Revenue Cycle Management. Empowering Hospitals with cost efficient & faster Claims, Revenue & Operations." />
+        <meta property="og:image" content="/nimblefinlogo.png" />
+      </Helmet>
 
-      {/* White translucent overlay */}
-      <div
-        className="absolute inset-0 bg-white opacity-70"
-        style={{ zIndex: 1 }}
-      ></div>
+      <div className="relative min-h-screen">
+        {/* Background Image */}
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage: `url(${bgImage})`,
+            zIndex: 0,
+          }}
+        ></div>
 
-      {/* Content */}
-      <div className="relative z-10">
-        <Hero />
-        <Analytics />
-        <Newsletter />
-        {/* <Cards /> */}
-        <Footer />
+        {/* White translucent overlay */}
+        <div
+          className="absolute inset-0 bg-white opacity-70"
+          style={{ zIndex: 1 }}
+        ></div>
+
+        {/* Content */}
+        <div className="relative z-10">
+          <Hero />
+          <Analytics />
+          <Newsletter />
+          {/* <Cards /> */}
+          <Footer />
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
