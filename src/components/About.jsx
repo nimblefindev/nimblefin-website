@@ -5,8 +5,8 @@ import teamIcon from '../assets/abtlogos/team.png';
 import taskIcon from '../assets/abtlogos/task.png';
 import timeIcon from '../assets/abtlogos/time.png';
 import budgetIcon from '../assets/abtlogos/budget.jpg';
-import coreImage from '../assets/abtlogos/core-competencies.png';
-import panIndiaImage from '../assets/abtlogos/panindiamap.png';
+import coreImage from '../assets/abtlogos/core-competencies-texted.png';
+import panIndiaImage from '../assets/abtlogos/panindiamap-texted.png';
 
 const About = () => {
     const location = useLocation();
@@ -14,11 +14,11 @@ const About = () => {
     useEffect(() => {
         const hash = location.hash;
         if (hash) {
-        const id = hash.replace('#', '');
-        const el = document.getElementById(id);
-        if (el) {
-            el.scrollIntoView({ behavior: 'smooth' }); // ← force scroll
-        }
+            const id = hash.replace('#', '');
+            const el = document.getElementById(id);
+            if (el) {
+                el.scrollIntoView({ behavior: 'smooth' }); // ← force scroll
+            }
         }
     }, [location]);
 
@@ -92,7 +92,6 @@ const About = () => {
 
 
                 <section className="space-y-8 lg:space-y-0 lg:flex lg:gap-8">
-
                     {/* CORE COMPETENCIES */}
                     <div className="flex-1 flex flex-col justify-between">
                         <div>
@@ -108,7 +107,7 @@ const About = () => {
                                 <li>SLA-driven performance tracking with bonus-linked savings</li>
                             </ul>
                         </div>
-                        <img src={coreImage} alt="Core Competencies" className="w-full max-w-sm mt-6 lg:mt-8 self-center" />
+                        <img src={coreImage} alt="Core Competencies" className="w-full max-w-md mt-6 lg:mt-8" />
                     </div>
 
                     {/* PAN-INDIA PRESENCE */}
@@ -129,7 +128,7 @@ const About = () => {
                                 </p>
                             </div>
                         </div>
-                        <img src={panIndiaImage} alt="Pan India Presence" className="w-full max-w-sm mt-6 lg:mt-8 self-center" />
+                        <img src={panIndiaImage} alt="Pan India Presence" className="w-full max-w-lg mt-6 lg:mt-8 self-center" />
                     </div>
 
                 </section>

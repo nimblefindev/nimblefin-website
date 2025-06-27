@@ -38,7 +38,8 @@ const ContactUs = () => {
           <div className="w-full h-[1000px] sm:h-[1100px] md:h-[900px] mb-4">
             <iframe
               title="Nimblefin Contact Form"
-              src="https://docs.google.com/forms/d/e/1FAIpQLScpbDuJEYpnMvzXfgYu0qdzQuBHxDcL7LuqOZViqB1_EAaqnA/viewform?embedded=true"
+              // src="https://docs.google.com/forms/d/e/1FAIpQLScpbDuJEYpnMvzXfgYu0qdzQuBHxDcL7LuqOZViqB1_EAaqnA/viewform?embedded=true"
+              src="https://docs.google.com/forms/d/e/1FAIpQLSeuLU9kwIyDYm-GSi1j2tOPMShoqj0hheOArdYoCyxSlI-kDQ/viewform?embedded=true"
               width="100%"
               height="100%"
               className="w-full h-full rounded"
@@ -51,7 +52,8 @@ const ContactUs = () => {
           <p className="text-sm text-gray-500">
             If the form doesn't load, you can also&nbsp;
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLScpbDuJEYpnMvzXfgYu0qdzQuBHxDcL7LuqOZViqB1_EAaqnA/viewform"
+              // href="https://docs.google.com/forms/d/e/1FAIpQLScpbDuJEYpnMvzXfgYu0qdzQuBHxDcL7LuqOZViqB1_EAaqnA/viewform"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeuLU9kwIyDYm-GSi1j2tOPMShoqj0hheOArdYoCyxSlI-kDQ/viewform"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline"
@@ -169,7 +171,7 @@ const ContactUs = () => {
               <li>
                 {/* 🏢🧾 */}
                 <p>
-                  29AAKCN20731ZN
+                  29AAKCN2073R1ZN
                 </p>
               </li>
             </ul>

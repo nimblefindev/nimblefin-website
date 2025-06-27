@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import IsoLogo from '../assets/isologo.png'
+import MsmeLogo from '../assets/msmelogo.png'
 
 import {
     FaFacebookSquare,
@@ -27,7 +28,17 @@ const Footer = () => {
                                 className="h-9 sm:h-10"
                             />
                             <p className="text-md sm:text-md font-medium text-gray-800">
-                                We are <span className="font-semibold">ISO 9001:2015 Certified</span>
+                                We're <span className="font-semibold">ISO 9001:2015 Certified</span>
+                            </p>
+                        </div>
+                        <div className="flex items-center gap-2 sm:gap-4 mb-4">
+                            <img
+                                src={MsmeLogo}
+                                alt="MSME registered logo"
+                                className="h-9 sm:h-10"
+                            />
+                            <p className="text-md sm:text-md font-medium text-gray-800">
+                                We're <span className="font-semibold">MSME registered</span>
                             </p>
                         </div>
                         <div className="flex space-x-6 md:w-[75%]">
@@ -43,11 +54,11 @@ const Footer = () => {
                         <div>
                             <h6 className="font-semibold text-lg text-black mb-4 uppercase">Services</h6>
                             <ul className="space-y-2">
-                                <li className="hover:text-[#ba0707] transition-colors cursor-pointer">Revenue Cycle Management</li>
-                                <li className="hover:text-[#ba0707] transition-colors cursor-pointer">Self-Fund & Affinity Programs</li>
-                                <li className="hover:text-[#ba0707] transition-colors cursor-pointer">Staffing Services</li>
-                                <li className="hover:text-[#ba0707] transition-colors cursor-pointer">Health Financing</li>
-                                <li className="hover:text-[#ba0707] transition-colors cursor-pointer">Business Consulting</li>
+                                <li className="hover:text-[#ba0707] transition-colors cursor-pointer"><Link to="/services">Revenue Cycle Management</Link></li>
+                                <li className="hover:text-[#ba0707] transition-colors cursor-pointer"><Link to="/services">Self-Fund & Affinity Programs</Link></li>
+                                <li className="hover:text-[#ba0707] transition-colors cursor-pointer"><Link to="/services">Staffing Services</Link></li>
+                                <li className="hover:text-[#ba0707] transition-colors cursor-pointer"><Link to="/services">Health Financing</Link></li>
+                                <li className="hover:text-[#ba0707] transition-colors cursor-pointer"><Link to="/services">Business Consulting</Link></li>
                             </ul>
                         </div>
                         <div>
@@ -78,7 +89,7 @@ const Footer = () => {
                                 <li><a href="mailto:connect@nimblefin.in" className="hover:text-[#ba0707] transition-colors">connect@nimblefin.in</a></li>
                                 <li>Bengaluru, Karnataka, India</li>
                                 <li className='sm:whitespace-nowrap'>CIN: U70200KA2025PTC198583</li>
-                                <li>GSTIN: 29AAKCN20731ZN</li>
+                                <li>GSTIN: 29AAKCN2073R1ZN</li>
                             </ul>
                         </div>
                     </div>
