@@ -45,7 +45,7 @@ const Footer = () => {
                             <FaFacebookSquare size={30} className="hover:text-[#ba0707] cursor-pointer" />
                             <FaInstagram size={30} className="hover:text-[#ba0707] cursor-pointer" />
                             <FaTwitterSquare size={30} className="hover:text-[#ba0707] cursor-pointer" />
-                            <FaLinkedin size={30} className="hover:text-[#ba0707] cursor-pointer" />
+                            <Link to="https://www.linkedin.com/in/nimblefin3939/"><FaLinkedin size={30} className="hover:text-[#ba0707] cursor-pointer" /></Link>
                         </div>
                     </div>
 
