@@ -107,7 +107,7 @@ const About = () => {
                                 <li>SLA-driven performance tracking with bonus-linked savings</li>
                             </ul>
                         </div>
-                        <img src={coreImage} alt="Core Competencies" className="w-full max-w-sm mt-6 lg:mt-8" />
+                        <img src={coreImage} alt="Core Competencies" className="w-full max-w-sm mt-6 lg:mt-8 lg:self-start md:self-center sm:self-center" />
                     </div>
 
                     {/* PAN-INDIA PRESENCE */}
