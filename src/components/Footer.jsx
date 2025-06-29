@@ -42,10 +42,10 @@ const Footer = () => {
                             </p>
                         </div>
                         <div className="flex space-x-6 md:w-[75%]">
-                            <FaFacebookSquare size={30} className="hover:text-[#ba0707] cursor-pointer" />
-                            <FaInstagram size={30} className="hover:text-[#ba0707] cursor-pointer" />
-                            <FaTwitterSquare size={30} className="hover:text-[#ba0707] cursor-pointer" />
-                            <Link to="https://www.linkedin.com/in/nimblefin3939/"><FaLinkedin size={30} className="hover:text-[#ba0707] cursor-pointer" /></Link>
+                            <Link to="https://www.facebook.com/share/1BmuQS9Bsu/" target='_blank'><FaFacebookSquare size={30} className="hover:text-[#ba0707] cursor-pointer" /></Link>
+                            <Link to="https://www.instagram.com/nimblefinproworksz/?utm_source=qr&r=nametag" target='_blank'><FaInstagram size={30} className="hover:text-[#ba0707] cursor-pointer" /></Link>
+                            <Link><FaTwitterSquare size={30} className="hover:text-[#ba0707] cursor-pointer" /></Link>
+                            <Link to="https://www.linkedin.com/in/nimblefin3939/" target='_blank'><FaLinkedin size={30} className="hover:text-[#ba0707] cursor-pointer" /></Link>
                         </div>
                     </div>
 
