@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.9a3ed204.css",
-    "main.js": "/static/js/main.94f01816.js",
+    "main.js": "/static/js/main.49735513.js",
     "static/media/buildingback.jpg": "/static/media/buildingback.8b8ad3f65ad2fdc30705.jpg",
+    "static/media/Nimblefin_Brochure.pdf": "/static/media/Nimblefin_Brochure.271b98f08bd9968fb581.pdf",
     "static/media/panindiamap.png": "/static/media/panindiamap.f931171a69dc6bcea56d.png",
     "static/media/servicesnew.jpg": "/static/media/servicesnew.145f9fcf795202a34491.jpg",
     "static/media/msmelogo.png": "/static/media/msmelogo.d143f210feef1529c833.png",
@@ -22,10 +23,10 @@
     "static/media/time.png": "/static/media/time.0ddaa956ca0d8a1433cd.png",
     "index.html": "/index.html",
     "main.9a3ed204.css.map": "/static/css/main.9a3ed204.css.map",
-    "main.94f01816.js.map": "/static/js/main.94f01816.js.map"
+    "main.49735513.js.map": "/static/js/main.49735513.js.map"
   },
   "entrypoints": [
     "static/css/main.9a3ed204.css",
-    "static/js/main.94f01816.js"
+    "static/js/main.49735513.js"
   ]
 }
