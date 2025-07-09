@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import IsoLogo from '../assets/isologo.png'
 import MsmeLogo from '../assets/msmelogo.png'
-import StartupIndiaLogo from '../assets/startup-india-logo.png'; 
-import StartupIndiaCertificate from '../assets/startup-india-certificate.pdf'; 
+import StartupIndiaLogo from '../assets/start-up-india-logo.png'; 
+import StartupIndiaCertificate from '../assets/start-up-india-certificate.pdf'; 
 
 import {
     FaFacebookSquare,
