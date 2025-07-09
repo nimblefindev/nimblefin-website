@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import IsoLogo from '../assets/isologo.png'
 import MsmeLogo from '../assets/msmelogo.png'
+import StartupIndiaLogo from '../assets/startup-india-logo.png'; 
+import StartupIndiaCertificate from '../assets/startup-india-certificate.pdf'; 
 
 import {
     FaFacebookSquare,
@@ -41,6 +43,24 @@ const Footer = () => {
                                 We're <span className="font-semibold">MSME registered</span>
                             </p>
                         </div>
+                        <div className="flex items-center gap-2 sm:gap-4 mb-4">
+                           
+                            <a 
+                                href={StartupIndiaCertificate} 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                            >
+                                <img
+                                    src={StartupIndiaLogo}
+                                    alt="Startup India recognized"
+                                    className="h-9 sm:h-10 cursor-pointer"
+                                />
+                            </a>
+                            <p className="text-md sm:text-md font-medium text-gray-800">
+                                Recognized by <span className="font-semibold">Startup India</span>
+                            </p>
+                        </div>
+
                         <div className="flex space-x-6 md:w-[75%]">
                             <Link to="https://www.facebook.com/share/1BmuQS9Bsu/" target='_blank'><FaFacebookSquare size={30} className="hover:text-[#ba0707] cursor-pointer" /></Link>
                             <Link to="https://www.instagram.com/nimblefinproworksz/?utm_source=qr&r=nametag" target='_blank'><FaInstagram size={30} className="hover:text-[#ba0707] cursor-pointer" /></Link>
