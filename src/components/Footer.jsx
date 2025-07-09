@@ -57,7 +57,7 @@ const Footer = () => {
                                 />
                             </a>
                             <p className="text-md sm:text-md font-medium text-gray-800">
-                                Recognized by <span className="font-semibold">Startup India</span>
+                                startup Recognized by <span className="font-semibold">DPIIT under Startup India</span>
                             </p>
                         </div>
 
