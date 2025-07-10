@@ -1,11 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.9a3ed204.css",
-    "main.js": "/static/js/main.49735513.js",
+    "main.js": "/static/js/main.d70980a1.js",
     "static/media/buildingback.jpg": "/static/media/buildingback.8b8ad3f65ad2fdc30705.jpg",
     "static/media/Nimblefin_Brochure.pdf": "/static/media/Nimblefin_Brochure.271b98f08bd9968fb581.pdf",
+    "static/media/startup-india-certificate.pdf": "/static/media/startup-india-certificate.8b9fe79cd96ab531e9e2.pdf",
     "static/media/panindiamap.png": "/static/media/panindiamap.f931171a69dc6bcea56d.png",
     "static/media/servicesnew.jpg": "/static/media/servicesnew.145f9fcf795202a34491.jpg",
+    "static/media/iso-certificate.pdf": "/static/media/iso-certificate.510b43680ca985498b84.pdf",
+    "static/media/msme-certificate.pdf": "/static/media/msme-certificate.80b1ebd511967bdc9001.pdf",
     "static/media/msmelogo.png": "/static/media/msmelogo.d143f210feef1529c833.png",
     "static/media/isologo.png": "/static/media/isologo.d78d4398f6f2ccbabd4d.png",
     "static/media/nimblefinalmedlogo.png": "/static/media/nimblefinalmedlogo.90e20dc78bf3cf2fa840.png",
@@ -18,15 +21,16 @@
     "static/media/darkgreen.png": "/static/media/darkgreen.1dd16b2140c771abe7db.png",
     "static/media/orange.png": "/static/media/orange.7044fab961dc6e9d578c.png",
     "static/media/nimblefinlogo.png": "/static/media/nimblefinlogo.000a07f4f121223c81bf.png",
+    "static/media/startup-india-logo.png": "/static/media/startup-india-logo.5601768ddcdff8ed66a4.png",
     "static/media/lightblue.png": "/static/media/lightblue.e38c0be46941ae8c3a22.png",
     "static/media/budget.jpg": "/static/media/budget.3e7b8b729fb8d6e4fe74.jpg",
     "static/media/time.png": "/static/media/time.0ddaa956ca0d8a1433cd.png",
     "index.html": "/index.html",
     "main.9a3ed204.css.map": "/static/css/main.9a3ed204.css.map",
-    "main.49735513.js.map": "/static/js/main.49735513.js.map"
+    "main.d70980a1.js.map": "/static/js/main.d70980a1.js.map"
   },
   "entrypoints": [
     "static/css/main.9a3ed204.css",
-    "static/js/main.49735513.js"
+    "static/js/main.d70980a1.js"
   ]
 }
