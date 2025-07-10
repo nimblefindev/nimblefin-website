@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import IsoLogo from '../assets/isologo.png'
-import MsmeLogo from '../assets/msmelogo.png'
-import StartupIndiaLogo from '../assets/start-up-india-logo.png'; 
-import StartupIndiaCertificate from '../assets/start-up-india-certificate.pdf'; 
+import IsoLogo from '../assets/isologo.png';
+import MsmeLogo from '../assets/msmelogo.png';
+import StartupIndiaLogo from '../assets/startup-india-logo.png';
+import IsoCertificate from '../assets/iso-certificate.pdf';
+import MsmeCertificate from '../assets/msme-certificate.pdf';
+import StartupIndiaCertificate from '../assets/startup-india-certificate.pdf';
 
 import {
     FaFacebookSquare,
@@ -23,28 +25,37 @@ const Footer = () => {
                         <h1 className="text-3xl font-bold text-[#ba0707] mb-4">Nimblefin Proworksz</h1>
                         <p className="mb-4">
                             Our mission is to <b>Be a valued and competent organization for improving efficiency of operations, cash flow and enhance affordability in healthcare sector.</b></p>
+                        
+                        {/* ISO Logo and Link */}
                         <div className="flex items-center gap-2 sm:gap-4 mb-4">
-                            <img
-                                src={IsoLogo}
-                                alt="ISO 9001:2015 Certified Badge"
-                                className="h-9 sm:h-10"
-                            />
+                            <a href={IsoCertificate} target="_blank" rel="noopener noreferrer">
+                                <img
+                                    src={IsoLogo}
+                                    alt="ISO 9001:2015 Certified Badge"
+                                    className="h-9 sm:h-10 cursor-pointer"
+                                />
+                            </a>
                             <p className="text-md sm:text-md font-medium text-gray-800">
                                 We're <span className="font-semibold">ISO 9001:2015 Certified</span>
                             </p>
                         </div>
+
+                        {/* MSME Logo and Link */}
                         <div className="flex items-center gap-2 sm:gap-4 mb-4">
-                            <img
-                                src={MsmeLogo}
-                                alt="MSME registered logo"
-                                className="h-9 sm:h-10"
-                            />
+                            <a href={MsmeCertificate} target="_blank" rel="noopener noreferrer">
+                                <img
+                                    src={MsmeLogo}
+                                    alt="MSME registered logo"
+                                    className="h-9 sm:h-10 cursor-pointer"
+                                />
+                            </a>
                             <p className="text-md sm:text-md font-medium text-gray-800">
                                 We're <span className="font-semibold">MSME registered</span>
                             </p>
                         </div>
+
+                        {/* Startup India Logo and Link */}
                         <div className="flex items-center gap-2 sm:gap-4 mb-4">
-                           
                             <a 
                                 href={StartupIndiaCertificate} 
                                 target="_blank" 
@@ -57,9 +68,10 @@ const Footer = () => {
                                 />
                             </a>
                             <p className="text-md sm:text-md font-medium text-gray-800">
-                                startup Recognized by <span className="font-semibold">DPIIT under Startup India</span>
+                                Startup recognized by <span className="font-semibold">DPIIT</span>
                             </p>
                         </div>
+
 
                         <div className="flex space-x-6 md:w-[75%]">
                             <Link to="https://www.facebook.com/share/1BmuQS9Bsu/" target='_blank'><FaFacebookSquare size={30} className="hover:text-[#ba0707] cursor-pointer" /></Link>
@@ -69,7 +81,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    {/* Right Sections */}
+                    {/* Right Sections (No changes here) */}
                     <div className="lg:col-span-2 grid grid-cols-2 md:grid-cols-4 gap-6 text-sm text-neutral-700">
                         <div>
                             <h6 className="font-semibold text-lg text-black mb-4 uppercase">Services</h6>
@@ -113,7 +125,6 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
